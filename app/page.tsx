@@ -1,9 +1,10 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import { Hero } from '../components/index';
 
 export default function Home() {
   return (
     <main className="overflow-hidden">
-        <h1>Nextjs 13!</h1>
+        <Hero />
     </main>
   )
 }
